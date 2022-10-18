@@ -10,17 +10,35 @@
 </head>
 
 <body>
-    <div class="primary">
-        <img src="http://placekitten.com/500/500" alt="" />
-        <div class="secondary">
-            <p>Sample<br />Text</p>
+
+    <div id="main">
+        <p>Look in my image hover collection for the example this is based off of</p>
+        <!-- OPTION 1 -->
+        <div class="overlay-outer">
+            <a href="#">
+                <div class="overlay"></div>
+                <img
+                    src='https://images.unsplash.com/photo-1587317996312-6314ec7b5a06?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ'>
+                <div class="content-details fadeIn_bottom">
+                    <h3 class="content-title">This is a title</h3>
+                    <p class="content-text">This is a short description</p>
+                </div>
+            </a>
         </div>
-    </div>
-    <div class="primary">
-        <img src="http://placekitten.com/500/500" alt="" />
-        <div class="secondary">
-            <p>Sample<br />Text</p>
+        <!--    -->
+        <p>So I'm not a big fan of the overlay-outer class and how it's resitricting the width.</p>
+        <hr />
+        <!-- OPTION 2 -->
+        <div class="hover_color">
+            <img
+                src='https://images.unsplash.com/photo-1587317996312-6314ec7b5a06?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ'>
+            <div class="hover_color-inner">
+                <p class="hover_title">Title Goes Here</p>
+            </div>
+            <a href="#"></a>
         </div>
+        <p>I like this one a lot better, use it.</p>
+        <!--    -->
     </div>
 </body>
 
